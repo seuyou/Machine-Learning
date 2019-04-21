@@ -1,17 +1,19 @@
-# Logistic Regression
-Logistic regression is one of the basic machine learning algorithms. It's a step forward after you learn linear regression. Before we dive in, I would like to review some basic ideas in linear regression.
+# This is the And gate implemented by tensorflow
 
-## Linear regression
-Linear regression is one of the algorithms used to solve regression problems, for example, you want to predict the house price, given some basic properties of houses. First we vectorize these properties, and combine such vector with the house's true price to get our training data. 
+in order to use this gate, you should follow steps bellow:
+```
+git clone https://github.com/seuyou/Machine-Learning.git
+cd ./logistic_regression
+python   
 
-Concretely, say we are given the __size__, __rooms__, __age__ and __price__
+```
 
-__First Step__
+```
+from Gate import gate
+gate(1, 1)  #this is just an example
 
-x1 = [size, house, age]      
-y1 = [price]
+```
 
-__Second Step__
+Note: in order to such function, first you should change __add__ in Gate file to your own local address
 
-data1 = [x1, y1]
 
